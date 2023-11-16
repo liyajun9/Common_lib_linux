@@ -29,8 +29,8 @@
 #include <stdio.h>
 #include <string>
 
-#include "public/base/basictypes.h"
-#include "public/base/port.h"
+#include "base/basictypes.h"
+#include "base/port.h"
 
 #if defined(WCHAR_T_IS_UTF16)
 

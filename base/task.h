@@ -1,6 +1,6 @@
 #ifndef PUBLIC_BASE_TASK_H_
 #define PUBLIC_BASE_TASK_H_
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 
 namespace base {
 

@@ -7,8 +7,8 @@
 #ifndef PUBLIC_BASE_ATOMIC_H_
 #define PUBLIC_BASE_ATOMIC_H_
 
-#include "public/base/basictypes.h"
-#include "public/base/port.h"
+#include "base/basictypes.h"
+#include "base/port.h"
 
 namespace base {
 

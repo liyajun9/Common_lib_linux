@@ -28,8 +28,8 @@
 #ifndef PUBLIC_BASE_ATOMICOPS_H_
 #define PUBLIC_BASE_ATOMICOPS_H_
 
-#include "public/base/basictypes.h"
-#include "public/base/port.h"
+#include "base/basictypes.h"
+#include "base/port.h"
 
 namespace base {
 namespace subtle {
@@ -118,6 +118,6 @@ Atomic64 Release_Load(volatile const Atomic64* ptr);
 }  // namespace base
 
 // Include our platform specific implementation.
-#include "public/base/atomicops_internals_x86_gcc.h"
+#include "base/atomicops_internals_x86_gcc.h"
 
 #endif  // PUBLIC_BASE_ATOMICOPS_H_

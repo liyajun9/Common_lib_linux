@@ -56,8 +56,8 @@
 #include <utility>
 #include <vector>
 
-#include "public/base/flags.h"
-#include "public/base/string_util.h"
+#include "base/flags.h"
+#include "base/string_util.h"
 
 using std::set;
 using std::string;

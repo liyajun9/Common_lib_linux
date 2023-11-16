@@ -23,8 +23,8 @@
 #include <iosfwd>
 #include <string>
 
-#include "public/base/basictypes.h"
-#include "public/base/string16.h"
+#include "base/basictypes.h"
+#include "base/string16.h"
 
 namespace base {
 

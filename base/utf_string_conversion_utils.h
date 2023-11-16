@@ -7,8 +7,8 @@
 
 // This should only be used by the various UTF string conversion files.
 
-#include "public/base/port.h"
-#include "public/base/string16.h"
+#include "base/port.h"
+#include "base/string16.h"
 
 namespace base {
 

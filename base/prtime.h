@@ -52,8 +52,8 @@
 #ifndef PUBLIC_BASE_PRTIME_H__
 #define PUBLIC_BASE_PRTIME_H__
 
-#include "public/base/logging.h"
-#include "public/base/prtypes.h"
+#include "base/logging.h"
+#include "base/prtypes.h"
 
 #define PR_ASSERT DCHECK
 

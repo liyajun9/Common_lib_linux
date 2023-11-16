@@ -54,7 +54,7 @@
 #ifndef PUBLIC_BASE_SYMBOLIZE_H_
 #define PUBLIC_BASE_SYMBOLIZE_H_
 
-#include "public/base/logging.h"
+#include "base/logging.h"
 
 #include <elf.h>
 #include <link.h>  // For ElfW() macro.

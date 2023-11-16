@@ -14,11 +14,11 @@
 #include <utility>
 #include <sstream>
 
-#include "public/base/port.h"
-#include "public/base/basictypes.h"
-#include "public/base/utf.h"
-#include "public/base/string16.h"
-#include "public/base/string_piece.h"  // For implicit conversions.
+#include "port.h"
+#include "basictypes.h"
+#include "utf.h"
+#include "string16.h"
+#include "base/string_piece.h"  // For implicit conversions.
 
 // Safe standard library wrappers for all platforms.
 
@@ -662,6 +662,8 @@ std::wstring DoubleToWString(double value);
 
 std::string Int64ToHexString(int64 value);
 void Int64ToHexString(int64 value, std::string* str);
+std::string Int32ToHexString(int32 value);
+void Int32ToHexString(int32 value, std::string* str);
 
 // Perform a best-effort conversion of the input string to a numeric type,
 // setting |*output| to the result of the conversion.  Returns true for

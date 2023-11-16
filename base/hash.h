@@ -2,8 +2,8 @@
 #define PUBLIC_BASE_HASH_H_
 
 #include <string>
-#include "public/base/basictypes.h"
-#include "public/base/string_piece.h"
+#include "base/basictypes.h"
+#include "base/string_piece.h"
 
 namespace base {
 

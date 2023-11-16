@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/at_exit.h"
-#include "public/base/logging.h"
+#include "at_exit.h"
+#include "logging.h"
 
 namespace base {
 

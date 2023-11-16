@@ -17,7 +17,7 @@
 *   that would otherwise be too long as macros.
 */
 
-#include "public/base/icu_utf.h"
+#include "base/icu_utf.h"
 
 namespace base_icu {
 

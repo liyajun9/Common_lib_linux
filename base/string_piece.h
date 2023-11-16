@@ -22,7 +22,7 @@
 #include <iosfwd>
 #include <string>
 
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 
 namespace base {
 

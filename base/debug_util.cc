@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/debug_util.h"
+#include "base/debug_util.h"
 
 #include <errno.h>
 #include <execinfo.h>
@@ -17,15 +17,15 @@
 #include <iostream>
 #include <string>
 
-#include "public/base/basictypes.h"
-#include "public/base/eintr_wrapper.h"
-#include "public/base/logging.h"
-#include "public/base/safe_strerror_posix.h"
-#include "public/base/scoped_ptr.h"
-#include "public/base/string_piece.h"
-#include "public/base/string_util.h"
-#include "public/base/symbolize.h"
-#include "public/base/time.h"
+#include "base/basictypes.h"
+#include "base/eintr_wrapper.h"
+#include "base/logging.h"
+#include "base/safe_strerror_posix.h"
+#include "base/scoped_ptr.h"
+#include "base/string_piece.h"
+#include "base/string_util.h"
+#include "base/symbolize.h"
+#include "base/time.h"
 
 namespace {
 // The prefix used for mangled symbols, per the Itanium C++ ABI:

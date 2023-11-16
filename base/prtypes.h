@@ -52,7 +52,7 @@
 #ifndef PUBLIC_BASE_PRTYPES_H_
 #define PUBLIC_BASE_PRTYPES_H_
 
-#include "public/base/prcpucfg_linux.h"
+#include "base/prcpucfg_linux.h"
 
 #include <stddef.h>
 
@@ -440,7 +440,7 @@ typedef unsigned long PRUword;
 PR_END_EXTERN_C
 
 #if !defined(NO_NSPR_10_SUPPORT)
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 #endif
 
 #endif  // PUBLIC_BASE_PRTYPES_H_

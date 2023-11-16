@@ -55,9 +55,9 @@
 #include <string>
 #include <vector>
 
-#include "public/base/flags.h"
-#include "public/base/flags_completions.h"
-#include "public/base/string_util.h"
+#include "base/flags.h"
+#include "base/flags_completions.h"
+#include "base/string_util.h"
 
 
 // The 'reporting' flags.  They all call gflags_exitfunc().

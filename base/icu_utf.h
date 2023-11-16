@@ -20,7 +20,7 @@
 #ifndef PUBLIC_BASE_ICU_UTF_H_
 #define PUBLIC_BASE_ICU_UTF_H_
 
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 
 namespace base_icu {
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/logging.h"
+#include "base/logging.h"
 
 #include <sys/syscall.h>
 #include <time.h>
@@ -21,13 +21,13 @@ typedef pthread_mutex_t* MutexHandle;
 #include <cstring>
 #include <algorithm>
 
-#include "public/base/debug_util.h"
-#include "public/base/eintr_wrapper.h"
-#include "public/base/mutex.h"
-#include "public/base/safe_strerror_posix.h"
-#include "public/base/string_piece.h"
-#include "public/base/string_util.h"
-#include "public/base/utf_string_conversions.h"
+#include "base/debug_util.h"
+#include "base/eintr_wrapper.h"
+#include "base/mutex.h"
+#include "base/safe_strerror_posix.h"
+#include "base/string_piece.h"
+#include "base/string_util.h"
+#include "base/utf_string_conversions.h"
 
 DEFINE_int32(v, -1, "LOG verbose level.");
 DEFINE_bool(enable_addition_info_business_id, true,

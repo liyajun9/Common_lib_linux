@@ -1,9 +1,9 @@
 #ifndef PUBLIC_BASE_THREAD_POOL_H_
 #define PUBLIC_BASE_THREAD_POOL_H_
 
-#include "public/base/basic.h"
-#include "public/base/task.h"
-#include "public/base/concurrent_queue.h"
+#include "base/basic.h"
+#include "base/task.h"
+#include "base/concurrent_queue.h"
 
 namespace base {
 

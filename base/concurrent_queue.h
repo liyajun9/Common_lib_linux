@@ -3,8 +3,8 @@
 
 #include <queue>
 
-#include "public/base/basictypes.h"
-#include "public/base/mutex.h"
+#include "base/basictypes.h"
+#include "base/mutex.h"
 
 namespace base {
 

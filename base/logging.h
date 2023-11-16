@@ -9,8 +9,8 @@
 #include <cstring>
 #include <sstream>
 
-#include "public/base/basictypes.h"
-#include "public/base/flags.h"
+#include "base/basictypes.h"
+#include "base/flags.h"
 
 //
 // Optional message capabilities

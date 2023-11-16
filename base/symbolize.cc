@@ -47,7 +47,7 @@
 //
 
 
-#include "public/base/symbolize.h"
+#include "base/symbolize.h"
 
 
 #include <dlfcn.h>
@@ -66,8 +66,8 @@
 #include <unistd.h>
 #include <limits>
 
-#include "public/base/demangle.h"
-#include "public/base/logging.h"
+#include "base/demangle.h"
+#include "base/logging.h"
 
 namespace google {
 

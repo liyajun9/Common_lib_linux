@@ -2,14 +2,14 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/time.h"
+#include "base/time.h"
 
 #include <errno.h>
 #include <limits>
 
-#include "public/base/logging.h"
-#include "public/base/prtime.h"
-#include "public/base/string_util.h"
+#include "base/logging.h"
+#include "base/prtime.h"
+#include "base/string_util.h"
 
 namespace base {
 

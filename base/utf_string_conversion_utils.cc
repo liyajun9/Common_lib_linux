@@ -2,10 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/utf_string_conversion_utils.h"
+#include "base/utf_string_conversion_utils.h"
 
-#include "public/base/icu_utf.h"
-#include "public/base/port.h"
+#include "base/icu_utf.h"
+#include "base/port.h"
 
 namespace base {
 

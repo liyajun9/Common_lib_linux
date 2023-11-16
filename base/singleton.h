@@ -6,9 +6,9 @@
 #define PUBLIC_BASE_SINGLETON_H_
 
 #include <sched.h>
-#include "public/base/at_exit.h"
-#include "public/base/atomicops.h"
-#include "public/base/dynamic_annotations.h"
+#include "base/at_exit.h"
+#include "base/atomicops.h"
+#include "base/dynamic_annotations.h"
 
 // Default traits for Singleton<Type>. Calls operator new and operator delete on
 // the object. Registers automatic deletion at process exit.

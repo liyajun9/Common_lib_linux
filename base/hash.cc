@@ -1,5 +1,5 @@
-#include "public/base/hash.h"
-#include "public/base/string_util.h"
+#include "base/hash.h"
+#include "base/string_util.h"
 
 namespace {
 

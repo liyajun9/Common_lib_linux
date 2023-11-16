@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/string16.h"
+#include "base/string16.h"
 
 #if defined(WCHAR_T_IS_UTF16)
 
@@ -13,8 +13,8 @@
 
 #elif defined(WCHAR_T_IS_UTF32)
 
-#include "public/base/string_util.h"
-#include "public/base/utf_string_conversions.h"
+#include "base/string_util.h"
+#include "base/utf_string_conversions.h"
 
 namespace base {
 

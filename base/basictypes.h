@@ -12,7 +12,7 @@
 #include <string.h>         // for memcpy
 #include <iostream>         // for cerr, endl
 
-#include "public/base/port.h"    // Types that only need exist on certain systems
+#include "base/port.h"    // Types that only need exist on certain systems
 
 typedef signed char         schar;
 typedef signed char         int8;

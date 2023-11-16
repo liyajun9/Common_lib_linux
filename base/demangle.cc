@@ -30,7 +30,7 @@
 // Author: Satoru Takabayashi
 
 #include <stdio.h>  // for NULL
-#include "public/base/demangle.h"
+#include "base/demangle.h"
 
 namespace google {
 

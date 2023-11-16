@@ -112,7 +112,7 @@
 #define PATH_SEPARATOR  '/'
 #endif
 
-#include "public/base/flags.h"
+#include "base/flags.h"
 
 #include <assert.h>
 #include <ctype.h>
@@ -129,8 +129,8 @@
 #include <utility>     // for pair<>
 #include <vector>
 
-#include "public/base/mutex.h"
-#include "public/base/string_util.h"
+#include "base/mutex.h"
+#include "base/string_util.h"
 
 // Special flags, type 1: the 'recursive' flags.  They set another flag's val.
 DEFINE_string(flagfile,   "", "load flags from file");

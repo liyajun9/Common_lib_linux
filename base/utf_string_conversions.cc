@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/utf_string_conversions.h"
+#include "base/utf_string_conversions.h"
 
-#include "public/base/port.h"
-#include "public/base/string_piece.h"
-#include "public/base/utf_string_conversion_utils.h"
+#include "base/port.h"
+#include "base/string_piece.h"
+#include "base/utf_string_conversion_utils.h"
 
 using base::PrepareForUTF8Output;
 using base::PrepareForUTF16Or32Output;

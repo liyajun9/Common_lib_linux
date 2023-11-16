@@ -1,4 +1,4 @@
-#include "public/base/thread.h"
+#include "base/thread.h"
 
 namespace base {
 

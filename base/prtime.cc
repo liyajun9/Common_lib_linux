@@ -63,7 +63,7 @@
  * 3. prlong.h
  */
 
-#include "public/base/prtime.h"
+#include "base/prtime.h"
 #include <errno.h>  /* for EINVAL */
 #include <time.h>
 

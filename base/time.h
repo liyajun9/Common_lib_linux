@@ -26,7 +26,7 @@
 #include <sys/time.h>
 #include <string>
 
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 
 namespace base {
 

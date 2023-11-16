@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "public/base/string_util.h"
+#include "base/string_util.h"
 
 #include <ctype.h>
 #include <errno.h>
@@ -19,12 +19,12 @@
 #include <algorithm>
 #include <vector>
 
-#include "public/base/port.h"
-#include "public/base/basictypes.h"
-#include "public/base/logging.h"
-#include "public/base/dmg_fp.h"
-#include "public/base/icu_utf.h"
-#include "public/base/utf_string_conversion_utils.h"
+#include "base/port.h"
+#include "base/basictypes.h"
+#include "base/logging.h"
+#include "base/dmg_fp.h"
+#include "base/icu_utf.h"
+#include "base/utf_string_conversion_utils.h"
 
 namespace {
 
@@ -1296,6 +1296,14 @@ std::string Int64ToHexString(int64 value) {
 
 void Int64ToHexString(int64 value, std::string* str) {
   SStringPrintf(str, "%.16lx", value);
+}
+
+std::string Int32ToHexString(int32 value) {
+    return StringPrintf("%.8lx", value);
+}
+
+void Int64ToHexString(int32 value, std::string* str) {
+    SStringPrintf(str, "%.8lx", value);
 }
 
 void StringAppendV(std::string* dst, const char* format, va_list ap) {

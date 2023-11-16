@@ -7,7 +7,7 @@
 
 #include <string>
 
-#include "public/base/string16.h"
+#include "base/string16.h"
 
 namespace base {
 class StringPiece;

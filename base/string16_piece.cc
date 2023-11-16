@@ -6,8 +6,8 @@
 #include <algorithm>
 #include <iostream>  // NOLINT
 
-#include "public/base/utf_string_conversions.h"
-#include "public/base/string16_piece.h"
+#include "base/utf_string_conversions.h"
+#include "base/string16_piece.h"
 
 #define CHAR16_MAX  65536
 

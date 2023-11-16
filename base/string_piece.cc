@@ -6,7 +6,7 @@
 #include <algorithm>
 #include <iostream>
 
-#include "public/base/string_piece.h"
+#include "base/string_piece.h"
 
 namespace base {
 

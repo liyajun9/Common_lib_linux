@@ -12,7 +12,7 @@
 #include <iosfwd>
 #include <vector>
 
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 
 // A stacktrace can be helpful in debugging. For example, you can include a
 // stacktrace member in a object (probably around #ifndef NDEBUG) so that you

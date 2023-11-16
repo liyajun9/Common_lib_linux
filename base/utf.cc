@@ -12,7 +12,7 @@
  * OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
  */
 
-#include "public/base/utf.h"
+#include "base/utf.h"
 
 #include <stdarg.h>
 #include <string.h>

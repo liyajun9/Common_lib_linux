@@ -45,7 +45,7 @@
 #include <stdlib.h>
 #include <cstddef>
 
-#include "public/base/basictypes.h"
+#include "base/basictypes.h"
 
 // A scoped_ptr<T> is like a T*, except that the destructor of scoped_ptr<T>
 // automatically deletes the pointer it holds (if any).

@@ -13,7 +13,8 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 
 target_link_directories(${PROJECT_NAME} PRIVATE
         /usr/lib64
-        /usr/local/lib64)
+        /usr/local/lib64
+        .)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
         -pthread)

@@ -7,8 +7,8 @@
 
 #include <string.h>
 
-#include "public/base/atomicops.h"
-#include "public/base/basictypes.h"
+#include "base/atomicops.h"
+#include "base/basictypes.h"
 
 // This file only makes sense with atomicops_internals_x86_gcc.h -- it
 // depends on structs that are defined in that file.  If atomicops.h
