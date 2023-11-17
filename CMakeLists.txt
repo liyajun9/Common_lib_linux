@@ -3,7 +3,7 @@ project(linux_common)
 
 FILE(GLOB_RECURSE BASE_SRC base/*)
 FILE(GLOB_RECURSE COMMON_SRC common/*)
-add_executable(${PROJECT_NAME} main.cpp
+add_library(${PROJECT_NAME} STATIC
         ${BASE_SRC}
         ${COMMON_SRC}
         BaseConvert/baseConvertor.cpp)
@@ -24,3 +24,5 @@ target_link_directories(${PROJECT_NAME} PRIVATE
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
         -pthread)
+
+install (TARGETS ${PROJECT_NAME} ARCHIVE DESTINATION /home/ralph/CLionProjects/linux_common/)
